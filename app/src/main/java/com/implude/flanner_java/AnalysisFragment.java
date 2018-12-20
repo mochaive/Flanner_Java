@@ -38,7 +38,7 @@ public class AnalysisFragment extends Fragment {
         pieChart.setRotationEnabled(true);
         pieChart.setHoleRadius(25f);
         pieChart.setTransparentCircleAlpha(0);
-        pieChart.setCenterText("과목별 공부횟수(색은 아래 참고)");
+        pieChart.setCenterText("과목별 공부횟수\n(색은 아래 참고)");
         pieChart.setCenterTextSize(10);
         pieChart.setDrawEntryLabels(true);
 
