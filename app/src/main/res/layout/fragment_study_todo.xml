@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".StudyTodoFragment">
+
+    <Button
+        android:id="@+id/button_get"
+        android:layout_margin="20dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="#00a28a"
+        android:layout_gravity="bottom|start"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2018/12/18"
+                android:textSize="22dp"
+                android:textColor="#ff000000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text="14:30"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="매삼비"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="end"
+                    android:layout_toLeftOf="@+id/button_delete1"
+                    android:text="3쪽"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/button_delete1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text="17:30"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="워드마스터"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="1단원"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp"
+                    android:layout_toLeftOf="@+id/button_delete2"/>
+
+                <Button
+                    android:id="@+id/button_delete2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2018/12/19"
+                android:textSize="22dp"
+                android:textColor="#ff000000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text="16:00"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="쎈"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/button_delete3"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="0dp"
+                    android:text="5쪽"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+
+                <Button
+                    android:id="@+id/button_delete3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text="19:50"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="워드마스터"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="1단원"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp"
+                    android:layout_toLeftOf="@+id/button_delete4"/>
+
+                <Button
+                    android:id="@+id/button_delete4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text="21:40"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="매삼문"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="1단원"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp"
+                    android:layout_toLeftOf="@+id/button_delete5"/>
+
+                <Button
+                    android:id="@+id/button_delete5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2018/12/20"
+                android:textSize="22dp"
+                android:textColor="#ff000000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text="22:00"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="안드로이드 공부"
+                    android:textColor="#ffff0000"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/button_delete6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2018/12/22"
+                android:textSize="22dp"
+                android:textColor="#ff000000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text="17:00"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="개념완성"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="6쪽"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp"
+                    android:layout_toLeftOf="@+id/button_delete7"/>
+
+                <Button
+                    android:id="@+id/button_delete7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text="20:30"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="워드마스터"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="1단원"
+                    android:textColor="#ff000000"
+                    android:textSize="20dp"
+                    android:layout_toLeftOf="@+id/button_delete8"/>
+
+                <Button
+                    android:id="@+id/button_delete8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textview_date1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp"
+                android:textColor="#ff000000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                />
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:id="@+id/textview_time1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text=""
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/textview_textbook1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:text=""
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textview_goal1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/button_delete9"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="0dp"
+                    android:text=""
+                    android:textColor="#ff000000"
+                    android:textSize="20dp"/>
+
+                <Button
+                    android:id="@+id/button_delete9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    android:visibility="invisible"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:id="@+id/textview_time2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text=""
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/textview_textbook2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text=""
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textview_goal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text=""
+                    android:textColor="#ff000000"
+                    android:textSize="20dp"
+                    android:layout_toLeftOf="@+id/button_delete10"/>
+
+                <Button
+                    android:id="@+id/button_delete10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    android:visibility="invisible"/>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textview_date2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="22dp"
+                android:textColor="#ff000000"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                />
+
+            <RelativeLayout
+                android:id="@+id/layout_flanner11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:id="@+id/textview_time3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff000000"
+                    android:layout_alignParentLeft="true"
+                    android:text=""
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/textview_textbook3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:text=""
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textview_goal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/button_delete11"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="0dp"
+                    android:text=""
+                    android:textColor="#ff000000"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/button_delete11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    android:visibility="invisible"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <io.github.yavski.fabspeeddial.FabSpeedDial
+        android:id="@+id/fabSpeedDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:fabGravity="bottom_end"
+        app:fabMenu="@menu/float_menu"
+        app:miniFabBackgroundTint="@android:color/white"
+        app:miniFabDrawableTint="?attr/colorPrimaryDark"
+        app:miniFabTitleTextColor="?attr/colorPrimaryDark"
+        />
+
+
+</FrameLayout>

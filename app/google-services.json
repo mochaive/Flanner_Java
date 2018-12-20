@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735640809964",
+    "firebase_url": "https://flanner-java.firebaseio.com",
+    "project_id": "flanner-java",
+    "storage_bucket": "flanner-java.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735640809964:android:23a7fe1b44cef9e4",
+        "android_client_info": {
+          "package_name": "com.implude.flanner_java"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735640809964-hmff8dha9b5tjc9svluhu8ssmmmhk1r0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.implude.flanner_java",
+            "certificate_hash": "60c9fb33ed84e0858a792bd5d43ccd15c14a54d1"
+          }
+        },
+        {
+          "client_id": "735640809964-q7uvsal1b2rnuc9bgcpkf8nf1gkgrrva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6jC0JbTyZZq6_7iGn_SW5sB1nW9ZU0nc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735640809964-q7uvsal1b2rnuc9bgcpkf8nf1gkgrrva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

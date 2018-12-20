@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectSubjectActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_korean"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="국어"
+                android:textColor="#ff000000"
+                android:textSize="15dp"/>
+            <Button
+                android:id="@+id/button_english"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="영어"
+                android:textColor="#ff000000"
+                android:textSize="15dp"/>
+            <Button
+                android:id="@+id/button_math"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="수학"
+                android:textColor="#ff000000"
+                android:textSize="15dp"/>
+            <Button
+                android:id="@+id/button_science"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="과학"
+                android:textColor="#ff000000"
+                android:textSize="15dp"/>
+            <Button
+                android:id="@+id/button_social"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="사회"
+                android:textColor="#ff000000"
+                android:textSize="15dp"/>
+            <Button
+                android:id="@+id/button_koreanhistory"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="역사"
+                android:textColor="#ff000000"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="교재"
+            android:textColor="#ff000000"
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/edittext_textbook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edittext_goal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_marginRight="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/button_unit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="쪽"
+                    android:textSize="15dp"
+                    android:textColor="#ff000000"/>
+                <Button
+                    android:id="@+id/button_unit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="단원"
+                    android:textSize="15dp"
+                    android:textColor="#ff000000"/>
+                <Button
+                    android:id="@+id/button_unit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="강"
+                    android:textSize="15dp"
+                    android:textColor="#ff000000"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_time"
+            android:layout_gravity="center_vertical"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:text="시간"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알람"
+            android:textSize="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:checked="false"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인"/>
+
+</LinearLayout>
